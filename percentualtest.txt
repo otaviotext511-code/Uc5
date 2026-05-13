@@ -1,0 +1,7 @@
+função 'nome:desconto' (porcentagem & preco)
+returno 'expressão: preco * ((porcentagem - 100)/100)' corrigido a 2 casas decimais
+
+preco é: 155.67
+porcentagem: 5
+
+console ('o valor a ser pago com desconto é:' + desconto)

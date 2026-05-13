@@ -1,0 +1,6 @@
+var idades;
+var pessoas;
+var maiorDeIdade;
+var menorDeIdade;
+var idade;
+var age;

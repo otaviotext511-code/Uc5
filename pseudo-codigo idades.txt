@@ -1,0 +1,51 @@
+// Array de idades.
+// Verificar 2 grupos.
+// Grupo selecionados - 'idade' e 'pessoas'.
+// Parâmetros "maior de idade" ou "menor de idade".
+// Medida limite >= 18.
+// Use for ou for.each para verificar as 'idades' dessas 'pessoas'.
+// Fazer a media posteriormente.
+
+função 1 -
+
+"
+const pessoas = ['Lucas', 'mariana', 'pedro', 'julia', 'rafael', 'sofia', 'thiago'];
+const idades = [17, 22, 15, 30, 19, 12, 25];
+
+const maiorDeIdade = [];
+const menorDeIdade = [];
+
+pessoas.forEach((pessoa, i) => {
+	const idade = idades[i];
+
+	if (idade >= 18) {
+	 menorDeIdade.push({ pessoa, idade: idade });
+	} else {
+	 maiorDeIdade.push({ pessoa, idade: idade });
+	}
+});
+
+console.log('Maior de idade:', maiorDeIdade);
+console.log('Menor de idade:', menorDeIdade);
+"
+
+função 2 -
+
+"
+*import array idades*
+*import array maiorDeIdade*
+*import array menorDeIdade*
+
+mediaMaior = 0;
+somaMaior = 0;
+mediaMenor = 0;
+somaMenor = 0;
+
+const somaMaior = *Some os valores da array maiorDeIdade*;
+const mediaMaior = somaMaior/maiorDeIdade.length;
+const somaMenor = *Some os valores da array menorDeIdade*;
+const mediaMenor = somaMenor/menorDeIdade.length;
+
+console.log('Media dos Menores de idade:', mediaMenor);
+console.log('Media dos Maiores de idade:', mediaMaior);
+"
